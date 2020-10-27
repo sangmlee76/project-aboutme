@@ -2,6 +2,40 @@
   background-color: powderblue;
 }
 
+section{
+  margin: 20px;
+}
+
+p, li{
+  font-size: 15px;
+  color: darkblue;
+  margin: 10px;
+  text-indent: 3%;
+}
+
+li{
+  text-indent: 1%;
+}
+
 h1{
   font-size: 30px;
+  border: 10px solid black;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: bold ;
+
+}
+
+footer{
+  margin: 100px;
+  text-align: center;
+}
+
+.welcome, .goodBye{
+  font-size: 15px;
+  margin: 20px;
+  text-align: center;
 }
