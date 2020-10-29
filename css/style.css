@@ -44,16 +44,25 @@ footer{
 }
 
 #education{
-  border: 5px inset gray;
+  border: 10px inset gray;
   padding: 25px 10px;
   display: inline-block;
+  width: 500px;
+  height: 100px;
+  float: left;
+  text-align: center;
 }
 
 #experience{
-  border: 5px inset gray;
-  padding: 15px;
+  border: 10px inset gray;
+  padding: 25px 10px;
   display: inline-block;
+  width: 500px;
+  height: 100px;
+  text-align: center;
 }
+
+
 
 ol {
   background: #ff9999;
@@ -66,19 +75,16 @@ ol li {
   list-style-type: decimal;
   background: #ffe5e5;
   padding: 5px;
-  margin-left: 35px;
-  
-}
-
-#bio{
-  background: 
-}
-
-#goals{
-
+  margin-left: 35px; 
 }
 
 .topTen{
   text-align: center;
   padding: 10px;
+}
+
+#history{
+  margin: 0px 120px;
+  background: 
+  
 }
