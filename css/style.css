@@ -2,19 +2,22 @@
   background-color: powderblue;
 }
 
-section{
+div{
   margin: 20px;
 }
 
-p, li{
+p{
   font-size: 15px;
   color: darkblue;
   margin: 10px;
-  text-indent: 3%;
+  text-indent: 1%;
 }
 
 li{
   text-indent: 1%;
+  font-size: 15px;
+  margin: 10px;
+  color: darkblue;
 }
 
 h1{
@@ -38,4 +41,44 @@ footer{
   font-size: 15px;
   margin: 20px;
   text-align: center;
+}
+
+#education{
+  border: 5px inset gray;
+  padding: 25px 10px;
+  display: inline-block;
+}
+
+#experience{
+  border: 5px inset gray;
+  padding: 15px;
+  display: inline-block;
+}
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+  border: 10px outset darkred;
+  margin: 0px 500px;
+}
+
+ol li {
+  list-style-type: decimal;
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+  
+}
+
+#bio{
+  background: 
+}
+
+#goals{
+
+}
+
+.topTen{
+  text-align: center;
+  padding: 10px;
 }
