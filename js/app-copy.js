@@ -1,41 +1,5 @@
 'use strict';
 
-////////////// Function Section ///////////////
-
-// This function is for Q&A #1 - 5
-function funFactQuestions(questionNumber){
-
-  return //something//
-}
-
-// This function collects the attempts allowed for the game
-function allowedAttempts(userAttemptsAllowed){
-
-  return //something//
-}
-
-// This function checks the user's guess against the values in an array
-function checkAnswerInArray(userGuess){
-
-  return //something//
-}
-
-// This function implements the number guessing game
-function numberGame(userGuess){
-
-  return //something//
-}
-
-// This function implements the Array (Holloween treats) guessing game
-function arrayGame(userGuess){
-
-  return //something//
-}
-
-
-////////// End of Function Section ////////////
-
-
 //[Story 2, Task 1] ask user name through a prompt
 var userName = prompt('Hi, what is your name?');
 var correctAnswerCounter = 0;
