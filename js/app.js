@@ -79,8 +79,6 @@ alert('Shall-we-play-a-game? Let\'s see if you can guess my favorite number; it\
 var correctNumber = 55;  // the correct answer to the question
 var allowedAttemptsForQuestion6 = 4; // permitted attempts for the user guesses
 
-// TO-DO: currently the loop is not working at 100%; it goes through the loop 4 times but it will not check the final guess to see if it is correct -- seems like it doesn't enter the loop. I haven't been able to figure out how to work around this after several attempts.
-
 for(var i=0; i <= allowedAttemptsForQuestion6; i++){
   if(i === allowedAttemptsForQuestion6){
     alert('Those were great guesses but you have exhausted your guesses. The correct answer is ' + correctNumber);
@@ -97,7 +95,9 @@ for(var i=0; i <= allowedAttemptsForQuestion6; i++){
     alert('Sorry, that\'s too low. Go higher! (choose between 1 and 100):');
   } else if(sixthQuestion > correctNumber){
     alert('Sorry, that\'s too high. Go lower! (choose between 1 and 100):');
-  } // TO-DO: need ot add an alert to display the correct answer if they exhaust their attempts
+  } else {
+    alert('Sorry, that\'s not a valid guess. This counts as one of your guesses. Please click "OK" to continue.')
+  }
 }
 
 //[Story 5, Tasks: 1, 2, 3, 4; Story 6, Tasks: 1, 2] adds question 7 that uses a gussing game with a series of user inputs and feedback; game terminates in the middle if user answers correctly - user gets 6 attempts
