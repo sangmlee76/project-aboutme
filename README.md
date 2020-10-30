@@ -4,6 +4,8 @@
 A web page that provides information about its author using an interactive Q&A game. 
 
 ### Features (by version and release date)
+**version 1.2, released on 29 Oct 2020:** The entire questionnaire has been converted using Functions in the .js file. 
+
 **version 1.1, released on 28 Oct 2020:** The questionnaire was updated with two new Q&A games. First is a number guessing game; second is a guess my favorite Halloween treat game. It also added a score tracker to provide to user at the end of the game.
 
 **version 1.0, released on 27 Oct 2020:** The webpage asks for the user's name which is used to customize the responses back to the user using an *alert* dialog box. It provides 5 yes/no question prompts to the user, and then provides the user with feedback on their answer.
@@ -15,6 +17,11 @@ A web page that provides information about its author using an interactive Q&A g
 + https://overapi.com/css
 
 ## Reflections and Comments (with Release label)
+29 Oct 2020 Release (Lab 4):
++ The update for this release was, in part, completed with pair programming. Seid was my paired programmer. We worked through problem 1-5 and problem 6 as driver/navigator to get the concept. We were limited on time and as this was our first pair programming experience, which took us a while to just get things set up and get a flow going.  
++ Overall, I enjoyed the experience and found pair programming to be effective and productive. While we didn't move as quickly through actual writing of the code; I think we were quicker on figuring out the concept and problem solving -- which meant that the actual coding part was faster after the pair programming session.
++ Pair programming could also helps to prevent the urge to "dive right in to coding" which can be wasteful when the problem hasn't been either fully understood or thought through. We were able to ask each other questions if something was off or unclear, which forced us to think through the concept and the problem before getting too much code down. 
+
 28 Oct 2020 Release (Lab 3):
 + Was able to get most HTML and JS update within couple of hours. Then spent couple of hours debugging my JS to finally get it to work. What got me were:
   - The task on providing the final message if the user exhausted their attempts. Not intuitive, for me, but once I figured it out, it totally made sense -- though I am unsure if this is the best/right approach.
