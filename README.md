@@ -4,6 +4,8 @@
 A web page that provides information about its author using an interactive Q&A game. 
 
 ### Features (by version and release date)
+**version 1.3, released on 31 Oct 2020:** Updated .css for additional styling.
+
 **version 1.2, released on 29 Oct 2020:** The entire questionnaire has been converted using Functions in the .js file. 
 
 **version 1.1, released on 28 Oct 2020:** The questionnaire was updated with two new Q&A games. First is a number guessing game; second is a guess my favorite Halloween treat game. It also added a score tracker to provide to user at the end of the game.
@@ -17,6 +19,9 @@ A web page that provides information about its author using an interactive Q&A g
 + https://overapi.com/css
 
 ## Reflections and Comments (with Release label)
+31 Oct 2020 Release (Lab 5b):
++ Overall, feel prett good with my .js and html progress. My css styling is far behind.
+
 29 Oct 2020 Release (Lab 4):
 + The update for this release was, in part, completed with pair programming. Seid was my paired programmer. We worked through problem 1-5 and problem 6 as driver/navigator to get the concept. We were limited on time and as this was our first pair programming experience, which took us a while to just get things set up and get a flow going.  
 + Overall, I enjoyed the experience and found pair programming to be effective and productive. While we didn't move as quickly through actual writing of the code; I think we were quicker on figuring out the concept and problem solving -- which meant that the actual coding part was faster after the pair programming session.
