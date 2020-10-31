@@ -21,9 +21,36 @@ li{
 }
 
 h1{
-  font-size: 30px;
-  border: 10px solid black;
+  font-size: 70px;
+  border: 10px outset gray;
+  height:200px;
+  width: 500px;
+  font-family: 'Squada One', cursive;
   text-align: center;
+  background-color: rgb(109, 62, 62);
+  float: left;
+  padding: 100px 10px 10px 10px;
+  position: absolute;
+  left: 40px;
+  color: white
+}
+
+#bio{
+  margin: 20px;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  left: 600px;
+}
+
+#goals{
+  margin: 20px;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  left: 600px;
+  top: 100px;
+
 }
 
 h2{
@@ -45,21 +72,27 @@ footer{
 
 #education{
   border: 10px inset gray;
-  padding: 25px 10px;
-  display: inline-block;
-  width: 500px;
+  padding: 25px 0px;
+  /*display: inline-block; */
+  width: 520px;
   height: 100px;
-  float: left;
   text-align: center;
+  background-color: lightslategrey;
+  position: relative;
+  top: 110px;
 }
 
 #experience{
   border: 10px inset gray;
-  padding: 25px 10px;
-  display: inline-block;
-  width: 500px;
+  padding: 25px 0px;
+  /* display: inline-block; */
+  width: 520px;
   height: 100px;
   text-align: center;
+  background-color: lightslategrey;
+  position: relative;
+  top: 100px;
+  
 }
 
 
@@ -67,23 +100,35 @@ ol {
   background: #ff9999;
   padding: 20px;
   border: 10px outset darkred;
-  margin: 0px 500px;
+  margin: 0px 50px;
+  display: inline-block;
 }
+
 
 ol li {
   list-style-type: decimal;
   background: #ffe5e5;
-  padding: 5px;
-  margin-left: 35px; 
-}
 
-.topTen{
-  text-align: center;
-  padding: 10px;
-}
-
-#history{
-  margin: 0px 120px;
-  background: 
   
 }
+
+#topTen{
+  text-align: center;
+  padding: 10px;
+  position: relative; 
+  left: 50px;
+  top: 100px;
+  display: inline-block;
+  margin: 20px
+
+}
+
+/* #history{
+  
+  border: 10px solid black; 
+  height: 200px;
+  width: 500px;
+  float: left;
+  
+
+}*/
