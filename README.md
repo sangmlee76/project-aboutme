@@ -17,6 +17,7 @@ A web page that provides information about its author using an interactive Q&A g
 ## Links and Resources
 + [submission PR](https://gen.xyz/) **(I'm not quite sure what this is - will inquire with instructor for Lab03)**
 + https://overapi.com/css
++ **Seid was my pair programming partner for this lab**
 
 ## Reflections and Comments (with Release label)
 31 Oct 2020 Release (Lab 5b):
